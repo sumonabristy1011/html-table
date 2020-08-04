@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>171-007-042(Sumona_Bristy)Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>171-007-042(surprise test)</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #333333;  
+background: -webkit-linear-gradient(to right, #333333, #dd1818);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #333333, #dd1818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+
+        form {
+            background-color: #eee;
+            width: 50%;
+            padding: 20px 40px;
+            border-radius: 5px;
+        }
+
+        label {
+            font-size: 16px;
+            color: black;
+            margin-left: 28px;
+        }
+
+        input,
+        select {
+            padding: 15px 20px;
+            border-radius: 5px;
+            display: block;
+            margin: 15px auto;
+            width: 80%;
+        }
+
+        select {
+            /* padding: 15px 20px; */
+            width: 88%;
+        }
+        #button{
+            background-color: #dd1818;
+            color:white;
+            font-size: 18px;
+            font-family: sans-serif;
+            font-style:normal;
+            margin-top: 20px;
+            width: 88%;
+            text-transform: uppercase;
+            font-family: 'Lato', sans-serif;
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
+        #logo{
+            width:55%;
+            display: inline-block;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <div style="text-align: center;">
+            <img  src="./australianaviation-logo-web.png" id="logo" alt="">
+        </div>
+        <input type="text" id="firstName" placeholder="First Name">
+        <input type="email" placeholder="Email Address">
+        <input type="phone" id="dateofbirth" placeholder="Mobile Number">
+        <input type="password" placeholder="New password">
+        <br>
+
+        <label for="dateofbirth">Date of Birth</label>
+        <input class="nine" type="date" id="dateofbirth" placeholder="Date of Birth">
+
+        <label for="Country">Country</label>
+        <select name="Country" id="Country">
+            <option value="">Bangladesh</option>
+            <option value="">India</option>
+            <option value="">Nepal</option>
+        </select>
+
+        <input type="submit" id="button" value="Submit">
+    </form>
+</body>
+
+</html>
